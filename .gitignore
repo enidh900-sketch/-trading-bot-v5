@@ -14,3 +14,4 @@ venv/
 *.egg-info/
 .turbo/
 data/
+*.tsbuildinfo

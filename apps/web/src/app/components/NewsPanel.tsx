@@ -31,7 +31,7 @@ export default function NewsPanel({ items }: Props) {
   return (
     <div className="bg-slate-800 rounded-xl border border-slate-700 overflow-hidden">
       <div className="px-6 py-4 border-b border-slate-700">
-        <h2 className="text-lg font-semibold text-slate-200">News &amp; Macro Events</h2>
+        <h2 className="text-lg font-semibold text-slate-200">News & Macro Events</h2>
         <p className="text-xs text-slate-500 mt-0.5">Real-time via WebSocket</p>
       </div>
       {items.length === 0 ? (

@@ -55,7 +55,7 @@ export default function TradesTable() {
                 <th className="px-4 py-3 text-right">Vol</th>
                 <th className="px-4 py-3 text-right">Open</th>
                 <th className="px-4 py-3 text-right">Close</th>
-                <th className="px-4 py-3 text-right">P&amp;L</th>
+                <th className="px-4 py-3 text-right">P&L</th>
                 <th className="px-4 py-3 text-center">Status</th>
                 <th className="px-4 py-3 text-center">Mode</th>
                 <th className="px-4 py-3 text-left">Opened</th>
