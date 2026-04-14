@@ -1,0 +1,16 @@
+node_modules/
+.next/
+dist/
+build/
+*.db
+*.db-wal
+*.db-shm
+.env
+.env.local
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.turbo/
+data/
