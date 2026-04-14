@@ -81,7 +81,7 @@ export default function OptimizerPanel({ lastRecommendation }: Props) {
                 {String(rec.priority ?? 'medium')}
               </span>
             </div>
-            {rec.configKey && (
+            {rec.configKey != null && (
               <div className="flex items-center justify-between">
                 <span className="text-slate-400 text-sm">Config Key</span>
                 <span className="font-mono text-xs text-white">{String(rec.configKey)}</span>

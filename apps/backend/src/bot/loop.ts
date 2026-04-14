@@ -79,7 +79,7 @@ async function tick() {
   const safety = safetyGuard.check(safetyCtx);
 
   if (safety.allowed) {
-    const signal = await runAnalysis({ symbol, timeframe: 'H1' }).catch(() => null);
+    const signal = await runAnalysis({ symbol, timeframe: 'H1', includeOptimizer: false }).catch(() => null);
     if (signal) {
       // Persist event
       db.insert(schema.events).values({

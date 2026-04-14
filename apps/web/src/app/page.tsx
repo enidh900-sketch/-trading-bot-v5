@@ -40,7 +40,7 @@ export default function Dashboard() {
       const msg = JSON.parse(event.data as string) as { type: string; payload: Record<string, unknown> };
       switch (msg.type) {
         case 'bot_status':
-          setBotState(msg.payload as BotState);
+          setBotState(msg.payload as unknown as BotState);
           break;
         case 'analysis_result':
           setLastAnalysis(msg.payload);
